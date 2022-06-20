@@ -21,4 +21,5 @@
   (testing "(expression-matter 1 1 10)" (is (= (expression-matter 1 1 10) 20)))
   (testing "(expression-matter 9 1 1)" (is (= (expression-matter 9 1 1) 18)))
   (testing "(expression-matter 10 5 6)" (is (= (expression-matter 10 5 6) 300)))
-  (testing "(expression-matter 1 10 1)" (is (= (expression-matter 1 10 1) 12))))
+  (testing "(expression-matter 1 10 1)" (is (= (expression-matter 1 10 1) 12)))
+  )

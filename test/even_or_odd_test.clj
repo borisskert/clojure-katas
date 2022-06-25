@@ -1,6 +1,6 @@
-(ns example-test
+(ns even-or-odd-test
   (:require [clojure.test :refer :all]
-            [kata :refer :all]))
+            [even-or-odd :refer :all]))
 
 (deftest Examples...
   (is (= (even-or-odd 2) "Even"))

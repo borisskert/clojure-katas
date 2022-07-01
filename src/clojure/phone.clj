@@ -4,3 +4,6 @@
 (defn create-phone-number [nums]
   (String/format "(%d%d%d) %d%d%d-%d%d%d%d" (to-array nums))
   )
+
+;Best practice:
+;(apply format "(%d%d%d) %d%d%d-%d%d%d%d" nums)

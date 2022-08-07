@@ -1,6 +1,6 @@
-(ns kata-test
+(ns positive-sum-test
   (:require [clojure.test :refer :all]
-            [kata :refer [positive-sum]]))
+            [positive-sum :refer [positive-sum]]))
 
 (deftest
   Sum-of-positive-basic-Tests

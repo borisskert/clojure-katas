@@ -6,11 +6,6 @@ This repo contains my solutions for some Haskell katas submitted in [Codewars](h
 
 ## Usage
 
-Invoke a library API function from the command-line:
-
-    $ clojure -X de.borisskert.clojure-katas/foo :a 1 :b '"two"'
-    {:a 1, :b "two"} "Hello, World!"
-
 Run the project's tests:
 
     $ clojure -T:build test

@@ -1,6 +1,6 @@
-(ns kata-test
+(ns square-sum-test
   (:require [clojure.test :refer :all]
-            [kata :refer [square-sum]]))
+            [square-sum :refer [square-sum]]))
 
 (deftest basic-tests
   (is (= (square-sum [1, 2]) 5))
